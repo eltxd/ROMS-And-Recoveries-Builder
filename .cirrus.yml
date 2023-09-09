@@ -37,7 +37,6 @@ task:
       - cd ~/Lineage
       - wget https://storage.googleapis.com/git-repo-downloads/repo -O repo
       - chmod +x repo
-      - ./repo init
       - ./repo init --depth=1 -u https://github.com/LineageOS/android -b lineage-20.0
       - ./repo sync --force-sync -j8
       - echo "============================"
