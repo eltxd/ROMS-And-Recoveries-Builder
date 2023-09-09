@@ -33,8 +33,8 @@ task:
       - echo "============================"
       - echo "Syncing The Sources...."
       - echo "============================"
-      - mkdir ~/Leaf
-      - cd ~/Leaf
+      - mkdir ~/Lineage
+      - cd ~/Lineage
       - repo init --depth=1 -u https://github.com/LineageOS/android -b lineage-20.0
       - repo sync --force-sync -j8
       - echo "============================"
