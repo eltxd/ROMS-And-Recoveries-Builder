@@ -10,7 +10,7 @@ task:
        - export DEBIAN_FRONTEND=noninteractive
        - apt update
        - apt install sudo
-       - DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends tzdata --allow-change-held-packages
+       - DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends --allow-change-held-packages tzdata 
        - ln -sf /usr/share/zoneinfo/Asia/Kolkata /etc/localtime
        - apt-get install -y tzdata
        - dpkg-reconfigure --frontend noninteractive tzdata
