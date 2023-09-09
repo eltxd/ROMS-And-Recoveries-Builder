@@ -57,6 +57,7 @@ task:
       - export TZ=Asia/Jakarta
       - lunch lineage_fleur-userdebug
       - m bacon
+      
   Upload_script:
       - echo "============================"
       - echo "Uploading the Build..."
